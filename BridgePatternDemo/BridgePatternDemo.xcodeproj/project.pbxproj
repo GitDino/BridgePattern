@@ -14,6 +14,11 @@
 		0103086D2078B0E70068D596 /* BridgePatternDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103086C2078B0E70068D596 /* BridgePatternDemoTests.m */; };
 		010308782078B0E70068D596 /* BridgePatternDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308772078B0E70068D596 /* BridgePatternDemoUITests.m */; };
 		0103088A2078B14D0068D596 /* DORootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308892078B14D0068D596 /* DORootVC.m */; };
+		0103088E2078B4B50068D596 /* BaseRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103088D2078B4B50068D596 /* BaseRemote.m */; };
+		010308912078B4E60068D596 /* SubRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308902078B4E60068D596 /* SubRemote.m */; };
+		010308942078B52B0068D596 /* TVmachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308932078B52B0068D596 /* TVmachine.m */; };
+		010308972078B6130068D596 /* XMmachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308962078B6130068D596 /* XMmachine.m */; };
+		0103089A2078B6260068D596 /* TCLmachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308992078B6260068D596 /* TCLmachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,16 @@
 		010308792078B0E70068D596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		010308882078B14D0068D596 /* DORootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DORootVC.h; sourceTree = "<group>"; };
 		010308892078B14D0068D596 /* DORootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DORootVC.m; sourceTree = "<group>"; };
+		0103088C2078B4B50068D596 /* BaseRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRemote.h; sourceTree = "<group>"; };
+		0103088D2078B4B50068D596 /* BaseRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRemote.m; sourceTree = "<group>"; };
+		0103088F2078B4E60068D596 /* SubRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubRemote.h; sourceTree = "<group>"; };
+		010308902078B4E60068D596 /* SubRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubRemote.m; sourceTree = "<group>"; };
+		010308922078B52B0068D596 /* TVmachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVmachine.h; sourceTree = "<group>"; };
+		010308932078B52B0068D596 /* TVmachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVmachine.m; sourceTree = "<group>"; };
+		010308952078B6130068D596 /* XMmachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMmachine.h; sourceTree = "<group>"; };
+		010308962078B6130068D596 /* XMmachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMmachine.m; sourceTree = "<group>"; };
+		010308982078B6260068D596 /* TCLmachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCLmachine.h; sourceTree = "<group>"; };
+		010308992078B6260068D596 /* TCLmachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCLmachine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +114,7 @@
 		010308522078B0E60068D596 /* BridgePatternDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0103088B2078B4690068D596 /* Model */,
 				010308872078B1200068D596 /* Controller */,
 				010308862078B10D0068D596 /* Bases */,
 				010308852078B1000068D596 /* Resources */,
@@ -151,6 +167,23 @@
 				010308892078B14D0068D596 /* DORootVC.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0103088B2078B4690068D596 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0103088C2078B4B50068D596 /* BaseRemote.h */,
+				0103088D2078B4B50068D596 /* BaseRemote.m */,
+				0103088F2078B4E60068D596 /* SubRemote.h */,
+				010308902078B4E60068D596 /* SubRemote.m */,
+				010308922078B52B0068D596 /* TVmachine.h */,
+				010308932078B52B0068D596 /* TVmachine.m */,
+				010308952078B6130068D596 /* XMmachine.h */,
+				010308962078B6130068D596 /* XMmachine.m */,
+				010308982078B6260068D596 /* TCLmachine.h */,
+				010308992078B6260068D596 /* TCLmachine.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010308912078B4E60068D596 /* SubRemote.m in Sources */,
 				0103088A2078B14D0068D596 /* DORootVC.m in Sources */,
+				010308972078B6130068D596 /* XMmachine.m in Sources */,
 				010308632078B0E70068D596 /* main.m in Sources */,
+				010308942078B52B0068D596 /* TVmachine.m in Sources */,
+				0103088E2078B4B50068D596 /* BaseRemote.m in Sources */,
 				010308552078B0E60068D596 /* AppDelegate.m in Sources */,
+				0103089A2078B6260068D596 /* TCLmachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
