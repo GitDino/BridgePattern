@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010308552078B0E60068D596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308542078B0E60068D596 /* AppDelegate.m */; };
+		0103085D2078B0E70068D596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0103085C2078B0E70068D596 /* Assets.xcassets */; };
+		010308602078B0E70068D596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0103085E2078B0E70068D596 /* LaunchScreen.storyboard */; };
+		010308632078B0E70068D596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308622078B0E70068D596 /* main.m */; };
+		0103086D2078B0E70068D596 /* BridgePatternDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103086C2078B0E70068D596 /* BridgePatternDemoTests.m */; };
+		010308782078B0E70068D596 /* BridgePatternDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308772078B0E70068D596 /* BridgePatternDemoUITests.m */; };
+		0103088A2078B14D0068D596 /* DORootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 010308892078B14D0068D596 /* DORootVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010308692078B0E70068D596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010308482078B0E60068D596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0103084F2078B0E60068D596;
+			remoteInfo = BridgePatternDemo;
+		};
+		010308742078B0E70068D596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010308482078B0E60068D596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0103084F2078B0E60068D596;
+			remoteInfo = BridgePatternDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010308502078B0E60068D596 /* BridgePatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgePatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010308532078B0E60068D596 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		010308542078B0E60068D596 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0103085C2078B0E70068D596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0103085F2078B0E70068D596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		010308612078B0E70068D596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010308622078B0E70068D596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		010308682078B0E70068D596 /* BridgePatternDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgePatternDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0103086C2078B0E70068D596 /* BridgePatternDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgePatternDemoTests.m; sourceTree = "<group>"; };
+		0103086E2078B0E70068D596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010308732078B0E70068D596 /* BridgePatternDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgePatternDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		010308772078B0E70068D596 /* BridgePatternDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgePatternDemoUITests.m; sourceTree = "<group>"; };
+		010308792078B0E70068D596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010308882078B14D0068D596 /* DORootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DORootVC.h; sourceTree = "<group>"; };
+		010308892078B14D0068D596 /* DORootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DORootVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0103084D2078B0E60068D596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010308652078B0E70068D596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010308702078B0E70068D596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010308472078B0E60068D596 = {
+			isa = PBXGroup;
+			children = (
+				010308522078B0E60068D596 /* BridgePatternDemo */,
+				0103086B2078B0E70068D596 /* BridgePatternDemoTests */,
+				010308762078B0E70068D596 /* BridgePatternDemoUITests */,
+				010308512078B0E60068D596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010308512078B0E60068D596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010308502078B0E60068D596 /* BridgePatternDemo.app */,
+				010308682078B0E70068D596 /* BridgePatternDemoTests.xctest */,
+				010308732078B0E70068D596 /* BridgePatternDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010308522078B0E60068D596 /* BridgePatternDemo */ = {
+			isa = PBXGroup;
+			children = (
+				010308872078B1200068D596 /* Controller */,
+				010308862078B10D0068D596 /* Bases */,
+				010308852078B1000068D596 /* Resources */,
+			);
+			path = BridgePatternDemo;
+			sourceTree = "<group>";
+		};
+		0103086B2078B0E70068D596 /* BridgePatternDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0103086C2078B0E70068D596 /* BridgePatternDemoTests.m */,
+				0103086E2078B0E70068D596 /* Info.plist */,
+			);
+			path = BridgePatternDemoTests;
+			sourceTree = "<group>";
+		};
+		010308762078B0E70068D596 /* BridgePatternDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				010308772078B0E70068D596 /* BridgePatternDemoUITests.m */,
+				010308792078B0E70068D596 /* Info.plist */,
+			);
+			path = BridgePatternDemoUITests;
+			sourceTree = "<group>";
+		};
+		010308852078B1000068D596 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0103085C2078B0E70068D596 /* Assets.xcassets */,
+				0103085E2078B0E70068D596 /* LaunchScreen.storyboard */,
+				010308612078B0E70068D596 /* Info.plist */,
+				010308622078B0E70068D596 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		010308862078B10D0068D596 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				010308532078B0E60068D596 /* AppDelegate.h */,
+				010308542078B0E60068D596 /* AppDelegate.m */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		010308872078B1200068D596 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				010308882078B14D0068D596 /* DORootVC.h */,
+				010308892078B14D0068D596 /* DORootVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0103084F2078B0E60068D596 /* BridgePatternDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0103087C2078B0E70068D596 /* Build configuration list for PBXNativeTarget "BridgePatternDemo" */;
+			buildPhases = (
+				0103084C2078B0E60068D596 /* Sources */,
+				0103084D2078B0E60068D596 /* Frameworks */,
+				0103084E2078B0E60068D596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgePatternDemo;
+			productName = BridgePatternDemo;
+			productReference = 010308502078B0E60068D596 /* BridgePatternDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		010308672078B0E70068D596 /* BridgePatternDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0103087F2078B0E70068D596 /* Build configuration list for PBXNativeTarget "BridgePatternDemoTests" */;
+			buildPhases = (
+				010308642078B0E70068D596 /* Sources */,
+				010308652078B0E70068D596 /* Frameworks */,
+				010308662078B0E70068D596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0103086A2078B0E70068D596 /* PBXTargetDependency */,
+			);
+			name = BridgePatternDemoTests;
+			productName = BridgePatternDemoTests;
+			productReference = 010308682078B0E70068D596 /* BridgePatternDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		010308722078B0E70068D596 /* BridgePatternDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010308822078B0E70068D596 /* Build configuration list for PBXNativeTarget "BridgePatternDemoUITests" */;
+			buildPhases = (
+				0103086F2078B0E70068D596 /* Sources */,
+				010308702078B0E70068D596 /* Frameworks */,
+				010308712078B0E70068D596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010308752078B0E70068D596 /* PBXTargetDependency */,
+			);
+			name = BridgePatternDemoUITests;
+			productName = BridgePatternDemoUITests;
+			productReference = 010308732078B0E70068D596 /* BridgePatternDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010308482078B0E60068D596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Dino;
+				TargetAttributes = {
+					0103084F2078B0E60068D596 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					010308672078B0E70068D596 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0103084F2078B0E60068D596;
+					};
+					010308722078B0E70068D596 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0103084F2078B0E60068D596;
+					};
+				};
+			};
+			buildConfigurationList = 0103084B2078B0E60068D596 /* Build configuration list for PBXProject "BridgePatternDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010308472078B0E60068D596;
+			productRefGroup = 010308512078B0E60068D596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0103084F2078B0E60068D596 /* BridgePatternDemo */,
+				010308672078B0E70068D596 /* BridgePatternDemoTests */,
+				010308722078B0E70068D596 /* BridgePatternDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0103084E2078B0E60068D596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010308602078B0E70068D596 /* LaunchScreen.storyboard in Resources */,
+				0103085D2078B0E70068D596 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010308662078B0E70068D596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010308712078B0E70068D596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0103084C2078B0E60068D596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0103088A2078B14D0068D596 /* DORootVC.m in Sources */,
+				010308632078B0E70068D596 /* main.m in Sources */,
+				010308552078B0E60068D596 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010308642078B0E70068D596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0103086D2078B0E70068D596 /* BridgePatternDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0103086F2078B0E70068D596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010308782078B0E70068D596 /* BridgePatternDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0103086A2078B0E70068D596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0103084F2078B0E60068D596 /* BridgePatternDemo */;
+			targetProxy = 010308692078B0E70068D596 /* PBXContainerItemProxy */;
+		};
+		010308752078B0E70068D596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0103084F2078B0E60068D596 /* BridgePatternDemo */;
+			targetProxy = 010308742078B0E70068D596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0103085E2078B0E70068D596 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0103085F2078B0E70068D596 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0103087A2078B0E70068D596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0103087B2078B0E70068D596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0103087D2078B0E70068D596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/BridgePatternDemo/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dino.BridgePatternDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0103087E2078B0E70068D596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/BridgePatternDemo/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dino.BridgePatternDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		010308802078B0E70068D596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePatternDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dino.BridgePatternDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BridgePatternDemo.app/BridgePatternDemo";
+			};
+			name = Debug;
+		};
+		010308812078B0E70068D596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePatternDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dino.BridgePatternDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BridgePatternDemo.app/BridgePatternDemo";
+			};
+			name = Release;
+		};
+		010308832078B0E70068D596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePatternDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dino.BridgePatternDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BridgePatternDemo;
+			};
+			name = Debug;
+		};
+		010308842078B0E70068D596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePatternDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dino.BridgePatternDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BridgePatternDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0103084B2078B0E60068D596 /* Build configuration list for PBXProject "BridgePatternDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0103087A2078B0E70068D596 /* Debug */,
+				0103087B2078B0E70068D596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0103087C2078B0E70068D596 /* Build configuration list for PBXNativeTarget "BridgePatternDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0103087D2078B0E70068D596 /* Debug */,
+				0103087E2078B0E70068D596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0103087F2078B0E70068D596 /* Build configuration list for PBXNativeTarget "BridgePatternDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010308802078B0E70068D596 /* Debug */,
+				010308812078B0E70068D596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010308822078B0E70068D596 /* Build configuration list for PBXNativeTarget "BridgePatternDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010308832078B0E70068D596 /* Debug */,
+				010308842078B0E70068D596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010308482078B0E60068D596 /* Project object */;
+}
